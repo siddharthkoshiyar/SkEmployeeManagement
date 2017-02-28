@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0475ECB81E5B61DF00AC2123 /* mainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475ECB71E5B61DF00AC2123 /* mainPage.m */; };
+		0475ECBB1E5B744F00AC2123 /* departmentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475ECBA1E5B744F00AC2123 /* departmentData.m */; };
+		049897651E5C66E40088DAAB /* coustamtabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 049897641E5C66E40088DAAB /* coustamtabbar.m */; };
+		04D6FEBF1E5AF4D300FDCE0A /* testViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D6FEBE1E5AF4D300FDCE0A /* testViewControler.m */; };
+		41DEDA391E5AABD3005DF991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DEDA381E5AABD3005DF991 /* main.m */; };
+		41DEDA3C1E5AABD3005DF991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DEDA3B1E5AABD3005DF991 /* AppDelegate.m */; };
+		41DEDA3F1E5AABD3005DF991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DEDA3E1E5AABD3005DF991 /* ViewController.m */; };
+		41DEDA421E5AABD3005DF991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DEDA401E5AABD3005DF991 /* Main.storyboard */; };
+		41DEDA451E5AABD4005DF991 /* SkEmployeLoginPage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41DEDA431E5AABD3005DF991 /* SkEmployeLoginPage.xcdatamodeld */; };
+		41DEDA471E5AABD4005DF991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DEDA461E5AABD4005DF991 /* Assets.xcassets */; };
+		41DEDA4A1E5AABD4005DF991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41DEDA481E5AABD4005DF991 /* LaunchScreen.storyboard */; };
+		41DEDA531E5AAD25005DF991 /* signuppage.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DEDA521E5AAD25005DF991 /* signuppage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0475ECB61E5B61DF00AC2123 /* mainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainPage.h; sourceTree = "<group>"; };
+		0475ECB71E5B61DF00AC2123 /* mainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainPage.m; sourceTree = "<group>"; };
+		0475ECB91E5B744F00AC2123 /* departmentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = departmentData.h; sourceTree = "<group>"; };
+		0475ECBA1E5B744F00AC2123 /* departmentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = departmentData.m; sourceTree = "<group>"; };
+		049897631E5C66E40088DAAB /* coustamtabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coustamtabbar.h; sourceTree = "<group>"; };
+		049897641E5C66E40088DAAB /* coustamtabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coustamtabbar.m; sourceTree = "<group>"; };
+		04D6FEBD1E5AF4D300FDCE0A /* testViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewControler.h; sourceTree = "<group>"; };
+		04D6FEBE1E5AF4D300FDCE0A /* testViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewControler.m; sourceTree = "<group>"; };
+		41DEDA341E5AABD3005DF991 /* SkEmployeLoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkEmployeLoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DEDA381E5AABD3005DF991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41DEDA3A1E5AABD3005DF991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41DEDA3B1E5AABD3005DF991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41DEDA3D1E5AABD3005DF991 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41DEDA3E1E5AABD3005DF991 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41DEDA411E5AABD3005DF991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41DEDA441E5AABD3005DF991 /* SkEmployeLoginPage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkEmployeLoginPage.xcdatamodel; sourceTree = "<group>"; };
+		41DEDA461E5AABD4005DF991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41DEDA491E5AABD4005DF991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41DEDA4B1E5AABD4005DF991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41DEDA511E5AAD25005DF991 /* signuppage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signuppage.h; sourceTree = "<group>"; };
+		41DEDA521E5AAD25005DF991 /* signuppage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signuppage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41DEDA311E5AABD3005DF991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41DEDA2B1E5AABD1005DF991 = {
+			isa = PBXGroup;
+			children = (
+				41DEDA361E5AABD3005DF991 /* SkEmployeLoginPage */,
+				41DEDA351E5AABD3005DF991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41DEDA351E5AABD3005DF991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41DEDA341E5AABD3005DF991 /* SkEmployeLoginPage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41DEDA361E5AABD3005DF991 /* SkEmployeLoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				41DEDA3A1E5AABD3005DF991 /* AppDelegate.h */,
+				41DEDA3B1E5AABD3005DF991 /* AppDelegate.m */,
+				41DEDA3D1E5AABD3005DF991 /* ViewController.h */,
+				41DEDA401E5AABD3005DF991 /* Main.storyboard */,
+				41DEDA3E1E5AABD3005DF991 /* ViewController.m */,
+				049897631E5C66E40088DAAB /* coustamtabbar.h */,
+				049897641E5C66E40088DAAB /* coustamtabbar.m */,
+				0475ECB91E5B744F00AC2123 /* departmentData.h */,
+				0475ECBA1E5B744F00AC2123 /* departmentData.m */,
+				0475ECB61E5B61DF00AC2123 /* mainPage.h */,
+				0475ECB71E5B61DF00AC2123 /* mainPage.m */,
+				04D6FEBD1E5AF4D300FDCE0A /* testViewControler.h */,
+				04D6FEBE1E5AF4D300FDCE0A /* testViewControler.m */,
+				41DEDA511E5AAD25005DF991 /* signuppage.h */,
+				41DEDA521E5AAD25005DF991 /* signuppage.m */,
+				41DEDA461E5AABD4005DF991 /* Assets.xcassets */,
+				41DEDA481E5AABD4005DF991 /* LaunchScreen.storyboard */,
+				41DEDA4B1E5AABD4005DF991 /* Info.plist */,
+				41DEDA431E5AABD3005DF991 /* SkEmployeLoginPage.xcdatamodeld */,
+				41DEDA371E5AABD3005DF991 /* Supporting Files */,
+			);
+			path = SkEmployeLoginPage;
+			sourceTree = "<group>";
+		};
+		41DEDA371E5AABD3005DF991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41DEDA381E5AABD3005DF991 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41DEDA331E5AABD3005DF991 /* SkEmployeLoginPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41DEDA4E1E5AABD4005DF991 /* Build configuration list for PBXNativeTarget "SkEmployeLoginPage" */;
+			buildPhases = (
+				41DEDA301E5AABD3005DF991 /* Sources */,
+				41DEDA311E5AABD3005DF991 /* Frameworks */,
+				41DEDA321E5AABD3005DF991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkEmployeLoginPage;
+			productName = SkEmployeLoginPage;
+			productReference = 41DEDA341E5AABD3005DF991 /* SkEmployeLoginPage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41DEDA2C1E5AABD3005DF991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Felix Its";
+				TargetAttributes = {
+					41DEDA331E5AABD3005DF991 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 41DEDA2F1E5AABD3005DF991 /* Build configuration list for PBXProject "SkEmployeLoginPage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41DEDA2B1E5AABD1005DF991;
+			productRefGroup = 41DEDA351E5AABD3005DF991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41DEDA331E5AABD3005DF991 /* SkEmployeLoginPage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41DEDA321E5AABD3005DF991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DEDA4A1E5AABD4005DF991 /* LaunchScreen.storyboard in Resources */,
+				41DEDA471E5AABD4005DF991 /* Assets.xcassets in Resources */,
+				41DEDA421E5AABD3005DF991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41DEDA301E5AABD3005DF991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41DEDA3F1E5AABD3005DF991 /* ViewController.m in Sources */,
+				049897651E5C66E40088DAAB /* coustamtabbar.m in Sources */,
+				0475ECBB1E5B744F00AC2123 /* departmentData.m in Sources */,
+				04D6FEBF1E5AF4D300FDCE0A /* testViewControler.m in Sources */,
+				41DEDA531E5AAD25005DF991 /* signuppage.m in Sources */,
+				0475ECB81E5B61DF00AC2123 /* mainPage.m in Sources */,
+				41DEDA3C1E5AABD3005DF991 /* AppDelegate.m in Sources */,
+				41DEDA451E5AABD4005DF991 /* SkEmployeLoginPage.xcdatamodeld in Sources */,
+				41DEDA391E5AABD3005DF991 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41DEDA401E5AABD3005DF991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41DEDA411E5AABD3005DF991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41DEDA481E5AABD4005DF991 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41DEDA491E5AABD4005DF991 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41DEDA4C1E5AABD4005DF991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41DEDA4D1E5AABD4005DF991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41DEDA4F1E5AABD4005DF991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkEmployeLoginPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Felix-Its.SkNearByPlaces.SkEmployeLoginPage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41DEDA501E5AABD4005DF991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkEmployeLoginPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Felix-Its.SkNearByPlaces.SkEmployeLoginPage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41DEDA2F1E5AABD3005DF991 /* Build configuration list for PBXProject "SkEmployeLoginPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DEDA4C1E5AABD4005DF991 /* Debug */,
+				41DEDA4D1E5AABD4005DF991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41DEDA4E1E5AABD4005DF991 /* Build configuration list for PBXNativeTarget "SkEmployeLoginPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41DEDA4F1E5AABD4005DF991 /* Debug */,
+				41DEDA501E5AABD4005DF991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41DEDA431E5AABD3005DF991 /* SkEmployeLoginPage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41DEDA441E5AABD3005DF991 /* SkEmployeLoginPage.xcdatamodel */,
+			);
+			currentVersion = 41DEDA441E5AABD3005DF991 /* SkEmployeLoginPage.xcdatamodel */;
+			path = SkEmployeLoginPage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41DEDA2C1E5AABD3005DF991 /* Project object */;
+}
